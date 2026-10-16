@@ -68,6 +68,26 @@ Listening, reading, writing and speaking practice built around real exam skills.
 </tr>
 </table>
 
+## How they work · 图解
+
+Why each IELTS drill exists and how to use it, five cards per site (in Chinese).
+
+**[IELTS Listening Paraphrase · 雅思听力同义替换](https://ielts-listening-para.coze.site/)**
+
+<a href="assets/cards/ielts-listening-paraphrase/01.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-01.jpg" width="150" alt="雅思听力同义替换 1/5"></a> <a href="assets/cards/ielts-listening-paraphrase/02.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-02.jpg" width="150" alt="雅思听力同义替换 2/5"></a> <a href="assets/cards/ielts-listening-paraphrase/03.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-03.jpg" width="150" alt="雅思听力同义替换 3/5"></a> <a href="assets/cards/ielts-listening-paraphrase/04.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-04.jpg" width="150" alt="雅思听力同义替换 4/5"></a> <a href="assets/cards/ielts-listening-paraphrase/05.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-05.jpg" width="150" alt="雅思听力同义替换 5/5"></a>
+
+**[IELTS Reading Paraphrase · 雅思阅读同义替换](https://ielts-reading-para.coze.site/)**
+
+<a href="assets/cards/ielts-reading-paraphrase/01.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-01.jpg" width="150" alt="雅思阅读同义替换 1/5"></a> <a href="assets/cards/ielts-reading-paraphrase/02.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-02.jpg" width="150" alt="雅思阅读同义替换 2/5"></a> <a href="assets/cards/ielts-reading-paraphrase/03.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-03.jpg" width="150" alt="雅思阅读同义替换 3/5"></a> <a href="assets/cards/ielts-reading-paraphrase/04.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-04.jpg" width="150" alt="雅思阅读同义替换 4/5"></a> <a href="assets/cards/ielts-reading-paraphrase/05.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-05.jpg" width="150" alt="雅思阅读同义替换 5/5"></a>
+
+**[IELTS Sentence Repair · 雅思句子改错](https://ielts-repair.coze.site/)**
+
+<a href="assets/cards/ielts-sentence-repair/01.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-01.jpg" width="150" alt="雅思句子改错 1/5"></a> <a href="assets/cards/ielts-sentence-repair/02.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-02.jpg" width="150" alt="雅思句子改错 2/5"></a> <a href="assets/cards/ielts-sentence-repair/03.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-03.jpg" width="150" alt="雅思句子改错 3/5"></a> <a href="assets/cards/ielts-sentence-repair/04.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-04.jpg" width="150" alt="雅思句子改错 4/5"></a> <a href="assets/cards/ielts-sentence-repair/05.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-05.jpg" width="150" alt="雅思句子改错 5/5"></a>
+
+**[IELTS Writing · Band 6 to Band 8 · 雅思写作 6 分升 8 分](https://ielts6-8.coze.site/)**
+
+<a href="assets/cards/ielts-writing-band-6-to-8/01.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-01.jpg" width="150" alt="雅思写作 6 分升 8 分 1/5"></a> <a href="assets/cards/ielts-writing-band-6-to-8/02.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-02.jpg" width="150" alt="雅思写作 6 分升 8 分 2/5"></a> <a href="assets/cards/ielts-writing-band-6-to-8/03.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-03.jpg" width="150" alt="雅思写作 6 分升 8 分 3/5"></a> <a href="assets/cards/ielts-writing-band-6-to-8/04.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-04.jpg" width="150" alt="雅思写作 6 分升 8 分 4/5"></a> <a href="assets/cards/ielts-writing-band-6-to-8/05.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-05.jpg" width="150" alt="雅思写作 6 分升 8 分 5/5"></a>
+
 ## Cambridge English · 剑桥少儿英语
 
 Picture flashcards for every word on the KET, PET and FCE lists.

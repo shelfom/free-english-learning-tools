@@ -390,6 +390,13 @@
   .btn:hover { background: var(--cyan); color: var(--indigo); }
   .src { margin-left: auto; font-weight: 600; font-size: 14px; color: var(--muted); }
 
+  .howto { background: var(--mist); margin-top: 72px; padding: 8px 0 64px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .howto .group-head { padding-top: 56px; }
+  .strip-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 36px 0 14px; }
+  .strip-head h3 { margin: 0; }
+  .strip { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(180px, 1fr); gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
+  .strip a { scroll-snap-align: start; display: block; }
+  .strip img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; border-radius: 10px; border: 1px solid var(--line); }
   .teachers { margin: 88px 0 0; background: var(--indigo); color: var(--paper); }
   .teachers .wrap { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; padding-top: 64px; padding-bottom: 64px; }
   .teachers h2 { font-size: clamp(34px, 5vw, 60px); line-height: 1; letter-spacing: -.035em; margin: 0 0 18px; color: var(--cyan); font-weight: 900; }
@@ -416,6 +423,7 @@
     .stat { padding-bottom: 14px; }
     .body { padding: 18px 18px 20px; }
     .src { margin-left: 0; }
+    .strip { grid-auto-columns: 62%; }
   }
 </style>
 </head>
@@ -439,7 +447,7 @@
     <div class="wrap">
       <div><b>Open</b>Main site on Coze, fastest in mainland China <span lang="zh-CN">中国大陆访问更快</span></div>
       <div><b>Global mirror</b>Same site on GitHub Pages, fast everywhere else</div>
-      <nav class="jump" aria-label="Sections"><a href="#ielts">IELTS</a><a href="#cambridge-english">Cambridge English</a><a href="#vocabulary">Vocabulary</a><a href="#teachers">For teachers</a></nav>
+      <nav class="jump" aria-label="Sections"><a href="#ielts">IELTS</a><a href="#how-it-works">图解</a><a href="#cambridge-english">Cambridge English</a><a href="#vocabulary">Vocabulary</a><a href="#teachers">For teachers</a></nav>
     </div>
   </div>
 
@@ -506,7 +514,7 @@
           <h3>IELTS Writing Translation · Write It Back <span lang="zh-CN">雅思写作回译</span></h3>
           <p class="tag">Translate model essays back from Chinese into English, sentence by sentence, and compare.</p>
           <p class="tag zh" lang="zh-CN">把范文的中文一句句译回英文，再对照原句，学会地道的写作表达。</p>
-          <ul><li>30 complete IELTS Task 2 model essays, 538 sentences</li><li>See the Chinese, write the English, press Enter to reveal the original</li></ul>
+          <ul><li>30 IELTS Task 2 model essays across 5 question types, 538 sentences</li><li>See the Chinese, write the English, press Enter to reveal the original</li></ul>
           <div class="actions">
             <a class="btn solid" href="https://ielts-writeback.coze.site/">Open</a>
             <a class="btn ghost" href="https://shelfom.github.io/ielts-writing-translation/">Global mirror</a>
@@ -564,6 +572,37 @@
       </article>
       </div>
     </section>
+  </main>
+
+  <section class="howto" id="how-it-works">
+    <div class="wrap">
+      <header class="group-head">
+        <h2>How they work <span lang="zh-CN">图解</span></h2>
+        <p>Why each IELTS drill exists and how to use it, five cards per site. Written in Chinese for our students.</p>
+      </header>
+        <div class="strip-head">
+          <h3>IELTS Listening Paraphrase <span lang="zh-CN">雅思听力同义替换</span></h3>
+          <a class="btn ghost" href="https://ielts-listening-para.coze.site/">Open</a>
+        </div>
+        <div class="strip" lang="zh-CN"><a href="assets/cards/ielts-listening-paraphrase/01.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-01.jpg" width="540" height="720" loading="lazy" alt="雅思听力同义替换 图解 1/5"></a><a href="assets/cards/ielts-listening-paraphrase/02.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-02.jpg" width="540" height="720" loading="lazy" alt="雅思听力同义替换 图解 2/5"></a><a href="assets/cards/ielts-listening-paraphrase/03.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-03.jpg" width="540" height="720" loading="lazy" alt="雅思听力同义替换 图解 3/5"></a><a href="assets/cards/ielts-listening-paraphrase/04.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-04.jpg" width="540" height="720" loading="lazy" alt="雅思听力同义替换 图解 4/5"></a><a href="assets/cards/ielts-listening-paraphrase/05.jpg"><img src="assets/cards/ielts-listening-paraphrase/thumb-05.jpg" width="540" height="720" loading="lazy" alt="雅思听力同义替换 图解 5/5"></a></div>
+        <div class="strip-head">
+          <h3>IELTS Reading Paraphrase <span lang="zh-CN">雅思阅读同义替换</span></h3>
+          <a class="btn ghost" href="https://ielts-reading-para.coze.site/">Open</a>
+        </div>
+        <div class="strip" lang="zh-CN"><a href="assets/cards/ielts-reading-paraphrase/01.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-01.jpg" width="540" height="720" loading="lazy" alt="雅思阅读同义替换 图解 1/5"></a><a href="assets/cards/ielts-reading-paraphrase/02.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-02.jpg" width="540" height="720" loading="lazy" alt="雅思阅读同义替换 图解 2/5"></a><a href="assets/cards/ielts-reading-paraphrase/03.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-03.jpg" width="540" height="720" loading="lazy" alt="雅思阅读同义替换 图解 3/5"></a><a href="assets/cards/ielts-reading-paraphrase/04.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-04.jpg" width="540" height="720" loading="lazy" alt="雅思阅读同义替换 图解 4/5"></a><a href="assets/cards/ielts-reading-paraphrase/05.jpg"><img src="assets/cards/ielts-reading-paraphrase/thumb-05.jpg" width="540" height="720" loading="lazy" alt="雅思阅读同义替换 图解 5/5"></a></div>
+        <div class="strip-head">
+          <h3>IELTS Sentence Repair <span lang="zh-CN">雅思句子改错</span></h3>
+          <a class="btn ghost" href="https://ielts-repair.coze.site/">Open</a>
+        </div>
+        <div class="strip" lang="zh-CN"><a href="assets/cards/ielts-sentence-repair/01.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-01.jpg" width="540" height="720" loading="lazy" alt="雅思句子改错 图解 1/5"></a><a href="assets/cards/ielts-sentence-repair/02.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-02.jpg" width="540" height="720" loading="lazy" alt="雅思句子改错 图解 2/5"></a><a href="assets/cards/ielts-sentence-repair/03.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-03.jpg" width="540" height="720" loading="lazy" alt="雅思句子改错 图解 3/5"></a><a href="assets/cards/ielts-sentence-repair/04.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-04.jpg" width="540" height="720" loading="lazy" alt="雅思句子改错 图解 4/5"></a><a href="assets/cards/ielts-sentence-repair/05.jpg"><img src="assets/cards/ielts-sentence-repair/thumb-05.jpg" width="540" height="720" loading="lazy" alt="雅思句子改错 图解 5/5"></a></div>
+        <div class="strip-head">
+          <h3>IELTS Writing · Band 6 to Band 8 <span lang="zh-CN">雅思写作 6 分升 8 分</span></h3>
+          <a class="btn ghost" href="https://ielts6-8.coze.site/">Open</a>
+        </div>
+        <div class="strip" lang="zh-CN"><a href="assets/cards/ielts-writing-band-6-to-8/01.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-01.jpg" width="540" height="720" loading="lazy" alt="雅思写作 6 分升 8 分 图解 1/5"></a><a href="assets/cards/ielts-writing-band-6-to-8/02.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-02.jpg" width="540" height="720" loading="lazy" alt="雅思写作 6 分升 8 分 图解 2/5"></a><a href="assets/cards/ielts-writing-band-6-to-8/03.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-03.jpg" width="540" height="720" loading="lazy" alt="雅思写作 6 分升 8 分 图解 3/5"></a><a href="assets/cards/ielts-writing-band-6-to-8/04.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-04.jpg" width="540" height="720" loading="lazy" alt="雅思写作 6 分升 8 分 图解 4/5"></a><a href="assets/cards/ielts-writing-band-6-to-8/05.jpg"><img src="assets/cards/ielts-writing-band-6-to-8/thumb-05.jpg" width="540" height="720" loading="lazy" alt="雅思写作 6 分升 8 分 图解 5/5"></a></div>
+    </div>
+  </section>
+  <main class="wrap">
     <section class="group" id="cambridge-english">
       <header class="group-head">
         <h2>Cambridge English <span lang="zh-CN">剑桥少儿英语</span></h2>

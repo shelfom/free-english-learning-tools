@@ -8,7 +8,7 @@
 
 ### 👉 Browse them all on one page: **https://shelfom.github.io/free-english-learning-tools/**
 
-Every site has two doors: **Open** goes to the main site on Coze (fastest in mainland China); **Global mirror** is the same site on GitHub Pages (fast everywhere else).
+Every site has two doors: **Open** goes to the main site (fastest in mainland China); **Global mirror** is the same site on GitHub Pages (fast everywhere else).
 
 ## IELTS · 雅思
 
@@ -50,19 +50,19 @@ Listening, reading, writing and speaking practice built around real exam skills.
 
 [**Open**](https://ielts6-8.coze.site/) · [Global mirror](https://shelfom.github.io/ielts-writing-band-6-to-8/) · [Source](https://github.com/shelfom/ielts-writing-band-6-to-8)
 </td>
-<td width="50%" valign="top"><a href="https://ielts-speaking-mock.coze.site/"><img src="assets/ielts-speaking-mock.jpg" alt="IELTS Speaking Mock Test"></a>
+<td width="50%" valign="top"><a href="https://speaking-mock.43-129-168-253.sslip.io/"><img src="assets/ielts-speaking-mock.jpg" alt="IELTS Speaking Mock Test"></a>
 
 **IELTS Speaking Mock Test** · 雅思口语模考<br>A full Part 1–3 speaking test with a British AI examiner and a four-criterion band report.<br>英国口音 AI 考官，完整 Part 1–3 模考，四项评分加中文诊断。
 
-[**Open**](https://ielts-speaking-mock.coze.site/) · [Source](https://github.com/shelfom/ielts-speaking-mock)
+[**Open**](https://speaking-mock.43-129-168-253.sslip.io/) · [Source](https://github.com/shelfom/ielts-speaking-mock)
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://ielts-writing-west.coze.site/"><img src="assets/ielts-writing-west.jpg" alt="IELTS Writing West"></a>
+<td width="50%" valign="top"><a href="https://writing-west.43-129-168-253.sslip.io/"><img src="assets/ielts-writing-west.jpg" alt="IELTS Writing West"></a>
 
 **IELTS Writing West** · 雅思写作西游记<br>Four AI coaches from *Journey to the West* diagnose your essay and guide your rewrite, one criterion at a time.<br>唐僧、孙悟空、猪八戒、沙僧四位 AI 教练，逐项诊断、指导重写，过四关让作文脱胎换骨。
 
-[**Open**](https://ielts-writing-west.coze.site/) · [Source](https://github.com/shelfom/ielts-writing-west)
+[**Open**](https://writing-west.43-129-168-253.sslip.io/) · [Source](https://github.com/shelfom/ielts-writing-west)
 </td>
 <td width="50%"></td>
 </tr>

@@ -410,6 +410,59 @@
   footer .brand { font-size: 20px; font-weight: 800; color: var(--indigo); margin: 0 0 6px; }
   footer p { margin: 0 0 8px; max-width: 860px; }
 
+  /* TB phone numbers: 400 hotline + two advisers' mobiles. Taps, hovers and copies are
+     counted by jointuni's count.js (site=tools); a real call the browser cannot see. */
+  .tb-phones {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.35em 2.6em;
+  }
+  .tb-mobiles {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35em 2.6em;
+  }
+  .tb-phones a {
+    color: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    cursor: pointer;
+  }
+  .tb-phones a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.32em;
+  }
+  .tb-handset::before {
+    content: "";
+    display: inline-block;
+    width: 0.95em;
+    height: 0.95em;
+    margin-right: 1.1em;
+    vertical-align: -0.12em;
+    background-color: var(--tb-handset, currentColor);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6.62 10.79a15.1 15.1 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02z'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6.62 10.79a15.1 15.1 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02z'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
+  @media (max-width: 560px) {
+    /* the 400 stays on the brand line; the two mobiles stack beneath it, centred,
+       with the handset hanging left of the digits so both numbers line up.
+       The footer itself must flex-wrap (set per site). */
+    .tb-phones { display: contents; }
+    .tb-mobiles { flex: 0 0 100%; flex-direction: column; align-items: var(--tb-stack, center); gap: 0.3em; }
+    .tb-handset { position: relative; }
+    .tb-handset::before { position: absolute; right: 100%; top: 50%; margin: -0.475em 1.1em 0 0; }
+  }
+  footer .tb-contact { margin: 0 0 16px; color: var(--indigo); font-size: 16px; font-weight: 700; letter-spacing: 0.04em; --tb-handset: var(--indigo); }
+  footer .tb-contact .tb-phones { justify-content: flex-start; }
+  @media (max-width: 560px) {
+    /* stacked flush left; the handset hangs in the indent so the digits line up */
+    footer .tb-contact .tb-phones { display: flex; flex-direction: column; align-items: flex-start; padding-left: 2.05em; gap: 0.3em; }
+    footer .tb-contact .tb-mobiles { flex: none; display: flex; }
+  }
+
   @media (max-width: 860px) {
     .grid { grid-template-columns: 1fr; gap: 24px; }
     .teachers .wrap { grid-template-columns: 1fr; gap: 28px; }
@@ -704,10 +757,12 @@
   <footer>
     <div class="wrap">
       <p class="brand" lang="zh-CN">海归湾国际教育</p>
+      <p class="tb-contact"><span class="tb-phones"><a href="tel:4000616820" data-who="400">400-061-6820</a><span class="tb-mobiles"><a class="tb-handset" href="tel:18612530608" data-who="Stephanie">186 1253 0608</a><a href="tel:13803039029" data-who="Maggie">138 0303 9029</a></span></span></p>
       <p>Turtle Bay International Education · IELTS, TOEFL and Cambridge English training in Tianjin, China.</p>
       <p>Code is MIT licensed. Original learning content is free for non-commercial teaching and learning under CC BY-NC 4.0. Third-party word lists and excerpts belong to their owners and are credited in each repository.</p>
       <p>Unofficial practice material, not affiliated with or endorsed by Cambridge University Press &amp; Assessment, the British Council or IDP. IELTS is their registered trademark.</p>
     </div>
   </footer>
+<script src="https://jointuni.turtlebayedu.com/api/count.js?site=tools" async></script>
 </body>
 </html>
